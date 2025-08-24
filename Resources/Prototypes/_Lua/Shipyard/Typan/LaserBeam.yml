@@ -1,0 +1,36 @@
+- type: vessel
+  id: LaserBeam
+  parent: BaseVesselAntag
+  name: ML-LaserBeam
+  description: Крейсер снабженный эксперементальным орудием ADEX-9 DYMERE. Невероятно мощен, но имеет множество технических ньюансов. Прилагается инструкция.
+  price: 400000
+  category: Medium
+  group: Typan
+  shuttlePath: /Maps/_Lua/Shuttles/Typan/LaserBeam.yml
+  guidebookPage: Null
+  class:
+  - Syndicate
+  engine:
+  - AME
+  addComponents:
+    - type: IFF
+      color: "#d93204"
+    - type: NanotrasenFtl
+    - type: TypanFtl
+
+- type: gameMap
+  id: LaserBeam
+  mapName: 'ML-LaserBeam'
+  mapPath: /Maps/_Lua/Shuttles/Typan/LaserBeam.yml
+  minPlayers: 0
+  stations:
+    LaserBeam:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'ML-LaserBeam {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs: {}
