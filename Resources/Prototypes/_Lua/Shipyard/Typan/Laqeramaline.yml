@@ -7,11 +7,7 @@
   category: Large
   group: Typan
   shuttlePath: /Maps/_Lua/Shuttles/Typan/Laqeramaline.yml
-  guidebookPage: Null
-  class:
-  - Syndicate
-  engine:
-  - AME
+
   addComponents:
     - type: IFF
       color: "#d93204"
@@ -32,5 +28,3 @@
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
-        - type: StationJobs
-          availableJobs: {}
