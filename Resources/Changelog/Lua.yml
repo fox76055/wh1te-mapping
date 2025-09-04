@@ -1012,3 +1012,72 @@ Entries:
   id: 75
   time: '2025-08-30T16:27:43.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/136
+- author: HacksLua
+  changes:
+    - type: Add
+      message: Рядом с полем FPS добавлено поле FPS сервера
+    - type: Tweak
+      message: >-
+        Пропатчен SuitSensor для уменьшения частоты проверок датчиков на
+        комбинезонах
+  id: 76
+  time: '2025-09-03T14:34:36.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/174
+- author: HacksLua
+  changes:
+    - type: Add
+      message: >-
+        Добавлена регистрация ДНК скафандра, поддержка мультирегистрации ДНК, а
+        так же удаление ДНК из памяти скафандра.
+    - type: Add
+      message: Добавлен форсаж (ускорение) в скафандры доминаторов
+    - type: Add
+      message: Добавлена регистрация ДНК в скафандры доминаторов
+    - type: Add
+      message: Добавлена автовыдача предметов доминаторов в руки доминаторам
+  id: 77
+  time: '2025-09-03T14:47:06.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/172
+- author: LeptonComm
+  changes:
+    - type: Tweak
+      message: Был возвращен старый урон огнестрела
+    - type: Tweak
+      message: >-
+        Время жизни снарядов кирех, каргилов, бофорсов, ручных чаронов,
+        тарниксов было увеличено
+  id: 78
+  time: '2025-09-03T16:35:37.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/171
+- author: BrennNight
+  changes:
+    - type: Add
+      message: Добавлены новые параллаксы!
+  id: 79
+  time: '2025-09-03T16:48:56.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/166
+- author: salo2016
+  changes:
+    - type: Add
+      message: 'Spawncharacter команда модерации. '
+    - type: Tweak
+      message: >-
+        Всем шаттлам с рельсой была перестановка на ручную - заряжайте ручками,
+        путь к ним оформлен. 
+    - type: Tweak
+      message: >-
+        ДАМ теперь прочный как шахтёрская стена. Шаттлы покупаются с выключенным
+        авто-удалением.
+    - type: Tweak
+      message: >-
+        Аномалии дают нормальное кол-во Очков. Консоли управления радиус
+        увеличен в двое. Камерам ИИ увеличен обзор.
+    - type: Fix
+      message: Рельса стреляет теперь до километра, а не 400м.
+    - type: Add
+      message: >-
+        Добавлена панелька управления ИИ турелями рядом с ИИ и в Оружейной
+        Аванпоста ДСБФ с уже списком турелей но НЕ настроенной панелью.
+  id: 80
+  time: '2025-09-03T17:07:33.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/160
