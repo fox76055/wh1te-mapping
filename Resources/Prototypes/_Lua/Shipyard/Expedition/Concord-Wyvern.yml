@@ -1,0 +1,32 @@
+# Creator Info
+# Discord: daeqa1us_
+# Cikey: wh1te
+
+ - type: vessel
+   id: Wyvern
+   parent: BaseVessel
+   name: CONCORD-Wyvern
+   description: Один из немногих кораблей от корпораций LaFleur Industries. На ней есть всё... Буквально.
+   price: 360000 #181454 x 2 (2x reasons: Major Ship, Advanced radars, RnD canisters(Nitrous oxide, Carbon oxide, plasma, amonia) ChemicalVendingMachine, hydroponic)
+   category: Large
+   group: Expedition
+   shuttlePath: /Maps/_Lua/Shuttles/Expedition/Concord-Wyvern.yml
+   addComponents:
+     - type: IFF
+       color: "#ffffff"
+     - type: NanotrasenFtl
+
+ - type: gameMap
+   id: Wyvern
+   mapName: 'CONCORD-Wyvern'
+   mapPath: /Maps/_Lua/Shuttles/Expedition/Concord-Wyvern.yml
+   minPlayers: 0
+   stations:
+     Wyvern:
+       stationProto: StandardFrontierExpeditionVessel
+       components:
+         - type: StationNameSetup
+           mapNameTemplate: 'CONCORD-Wyvern {1}'
+           nameGenerator:
+             !type:LuaTechNameGenerator
+             prefixCreator: '14'

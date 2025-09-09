@@ -1,0 +1,32 @@
+# Creator Info
+# Discord: daeqa1us_
+# Cikey: wh1te
+
+ - type: vessel
+   id: Venture
+   parent: BaseVessel
+   name: CONCORD-Venture
+   description: Ничем не примичательное экспедиционное судно оборудованное научным отделом и базовыми удобствами. Производитель - LaFleur Industries
+   price: 60000 #41862 x 1,4 (1,4 reasons: RnD on small Expidion ship)
+   category: small
+   group: Expedition
+   shuttlePath: /Maps/_Lua/Shuttles/Expedition/Concord-Venture.yml
+   addComponents:
+     - type: IFF
+       color: "#ffffff"
+     - type: NanotrasenFtl
+
+ - type: gameMap
+   id: Venture
+   mapName: 'CONCORD-Venture'
+   mapPath: /Maps/_Lua/Shuttles/Expedition/Concord-Venture.yml
+   minPlayers: 0
+   stations:
+     Venture:
+       stationProto: StandardFrontierExpeditionVessel
+       components:
+         - type: StationNameSetup
+           mapNameTemplate: 'CONCORD-Venture {1}'
+           nameGenerator:
+             !type:LuaTechNameGenerator
+             prefixCreator: '14'
