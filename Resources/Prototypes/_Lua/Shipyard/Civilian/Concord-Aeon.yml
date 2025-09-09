@@ -6,7 +6,7 @@
    id: Aeon
    parent: BaseVessel
    name: CONCORD-Aeon
-   description: Медицинское судно со всеми удобствами для спасения неумех в космосе. Производитель - LaFleur Industries
+   description: Медицинское судно со "всеми" удобствами для спасения неумех в космосе. Производитель - LaFleur Industries
    price: 57500 #35000 x 1.5 + 5000 (1.5 + 5000 reasons: 2.5km FTLDrive on small medical ship, CrewmonitoringServer + CrewmonitorngConsole)
    category: small
    group: Medical
