@@ -19,7 +19,7 @@
  - type: gameMap
    id: Aeon
    mapName: 'CONCORD-Aeon'
-   mapPath: /Maps/_Lua/Shuttles/civilian/Concord-Aeon.yml
+   mapPath: /Maps/_Lua/Shuttles/Civilian/Concord-Aeon.yml
    minPlayers: 0
    stations:
      Aeon:
