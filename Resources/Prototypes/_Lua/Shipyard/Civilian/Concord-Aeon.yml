@@ -28,5 +28,5 @@
          - type: StationNameSetup
            mapNameTemplate: 'CONCORD-Aeon {1}'
            nameGenerator:
-             !type:LuaTechNameGenerator
+             !type:NanotrasenNameGenerator
              prefixCreator: '14'
