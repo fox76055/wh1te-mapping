@@ -7,7 +7,7 @@
    parent: BaseVessel
    name: CONCORD-Venture
    description: Ничем не примичательное экспедиционное судно оборудованное научным отделом и базовыми удобствами. Производитель - LaFleur Industries
-   price: 63000 #41862 x 1,4 (1,4 reasons: RnD on small Expidition ship)
+   price: 70000 #41862 x 1,5 (1,5 reasons: RnD on small Expidition ship)
    category: small
    group: Expedition
    shuttlePath: /Maps/_Lua/Shuttles/Expedition/Concord-Venture.yml
