@@ -4,8 +4,8 @@ meta:
   engineVersion: 261.2.0
   forkId: ""
   forkVersion: ""
-  time: 09/11/2025 09:39:32
-  entityCount: 2985
+  time: 09/12/2025 09:45:22
+  entityCount: 2989
 maps: []
 grids:
 - 1
@@ -4483,6 +4483,18 @@ entities:
     - type: Transform
       pos: 9.486763,-15.46572
       parent: 1
+- proto: BoxNitrileGloves
+  entities:
+  - uid: 2986
+    components:
+    - type: Transform
+      pos: 2.5314245,-20.428675
+      parent: 1
+  - uid: 2987
+    components:
+    - type: Transform
+      pos: 8.488331,-23.399178
+      parent: 1
 - proto: ButtonFrameCaution
   entities:
   - uid: 401
@@ -8229,6 +8241,13 @@ entities:
     - type: Transform
       pos: 12.543015,-35.503105
       parent: 1
+- proto: ClothingHeadHatSurgcapBlue
+  entities:
+  - uid: 2988
+    components:
+    - type: Transform
+      pos: 3.4281116,-20.543606
+      parent: 1
 - proto: ClothingMaskBreathMedical
   entities:
   - uid: 1122
@@ -8252,6 +8271,13 @@ entities:
     components:
     - type: Transform
       pos: 20.5,16.5
+      parent: 1
+- proto: ClothingUniformJumpsuitPathologistAlt
+  entities:
+  - uid: 2989
+    components:
+    - type: Transform
+      pos: 3.4632678,-20.707668
       parent: 1
 - proto: ComfyChair
   entities:

@@ -5,7 +5,7 @@
  - type: vessel
    id: Venture
    parent: BaseVessel
-   name: CONCORD-Venture
+   name: Concord-Venture
    description: Ничем не примичательное экспедиционное судно оборудованное научным отделом и базовыми удобствами. Производитель - LaFleur Industries
    price: 70000 #41862 x 1,5 (1,5 reasons: RnD on small Expidition ship)
    category: small
@@ -18,7 +18,7 @@
 
  - type: gameMap
    id: Venture
-   mapName: 'CONCORD-Venture'
+   mapName: 'Concord-Venture'
    mapPath: /Maps/_Lua/Shuttles/Expedition/Concord-Venture.yml
    minPlayers: 0
    stations:
@@ -26,7 +26,7 @@
        stationProto: StandardFrontierExpeditionVessel
        components:
          - type: StationNameSetup
-           mapNameTemplate: 'CONCORD-Venture {1}'
+           mapNameTemplate: 'Concord-Venture {1}'
            nameGenerator:
              !type:NanotrasenNameGenerator
              prefixCreator: '14'
